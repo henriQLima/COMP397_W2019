@@ -4,11 +4,25 @@
     Calls an anonymous self-executing function
     Anyhting in braces is in a closure. Won't go global namespace.
 */
-(function () {
-    function Init() {
-        console.log('Initialization Started!!');
-        var x = 10;
+(function() {
+    
+    function Init():void {
+        console.log('Initialization Started!!')
+
+        Start();
     }
+
+    function Start(){
+
+    }
+
+    function Update(){
+
+    }
+
+    function Main(){
+
+    }
+
     window.onload = Init;
 })();
-//# sourceMappingURL=game.js.map
